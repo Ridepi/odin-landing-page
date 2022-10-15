@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: Roboto;
     display: flex;
@@ -6,16 +12,62 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    width: 100%;
+    padding: 15px 100px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 40px;
+    padding: 60px 100px;
+}
+
+.hero-text-container {
+    flex: 1;
+}
+
+.hero-text-container h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-text-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+.placeholder-image {
+    background: rgb(100, 100, 100);
+    color: #E5E7EB;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex: 1; 
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 ul {
