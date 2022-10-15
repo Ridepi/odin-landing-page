@@ -16,12 +16,12 @@ body {
     align-items: center;
     background-color: #1F2937;
     padding: 15px 200px;
+    color: #F9FAF8;
 }
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .hero-container {
@@ -39,7 +39,7 @@ body {
 
 .hero-text-container h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
@@ -51,7 +51,7 @@ body {
 }
 .placeholder-image {
     background: rgb(100, 100, 100);
-    color: #E5E7EB;
+    color: white;
     align-self: stretch;
     display: flex;
     justify-content: center;
@@ -59,15 +59,8 @@ body {
     flex: 1; 
 }
 
-button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 40px;
-    text-align: center;
+.button1 {
     margin-top: 20px;
-    border-radius: 10px;
 }
 
 .info-container {
@@ -100,28 +93,77 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 200px 200px;
+    padding: 200px 400px;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     color: #1F2937;
     font-style: italic;
 }
 
 .author {
-    font-size: 22px;
+    font-size: 24px;
     color: #1F2937;
     font-weight: 900;
     align-self: flex-end;
+    margin-top: 10px;
+}
+
+.actioncallbox {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 200px;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.button2 {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0px;
 }
 h2 {
     text-align: center;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900;
     color: #1F2937;
     margin: 40px;
+}
+
+.actioncallbox {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.calltoaction {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -130,7 +172,7 @@ ul {
     gap: 30px;
 }
 
-a {
+ul a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
